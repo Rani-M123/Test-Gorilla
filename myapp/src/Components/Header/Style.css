@@ -1,0 +1,58 @@
+.Tophead{
+    position: relative;
+    background-color: rgb(227, 223, 223);
+    z-index: 3;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: clamp(14px, 1.06667vw, 14px);
+    font-family: var(--openSans);
+    line-height: 140%;
+    font-weight: 500;
+
+}
+
+
+/* .Toptex{
+    justify-content: right;
+    position: relative;
+    z-index: 3;
+    display: flex;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: clamp(14px, 1.06667vw, 14px);
+    font-family: var(--openSans);
+    line-height: 140%;
+    font-weight: 500;
+}
+.Text{
+    display: grid;
+    justify-content: space-between;
+    
+} */
+/* .Secondorder{
+    display: flex;
+    justify-content: space-between;
+
+} */
+.grid {
+    display: grid;
+    transition: 300ms;
+    grid-template-columns: var(--left, 48px) auto;
+  }
+  
+  .grid:has(.left:hover) {
+    --left: 30%;
+  }
+  .textone{
+    color: #fff;
+    margin-bottom: 20px;
+  }
+  .textsecond{
+    margin-top: 16px;
+    color: #fff
+  }
